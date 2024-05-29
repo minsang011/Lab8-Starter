@@ -77,10 +77,10 @@ function initializeServiceWorker() {
 // EXPOSE - START (All expose numbers start with A)
 async function getRecipes() {
   // A1. Check local storage to see if there are any recipes. If there are recipes, return them.
-  const storedRecipes = localStorage.getItem('recipes');
-  if (storedRecipes) {
-    return JSON.parse(storedRecipes);
-  }
+  // const storedRecipes = localStorage.getItem('recipes');
+  // if (storedRecipes) {
+  //   return JSON.parse(storedRecipes);
+  // }
 
   // A2. Create an empty array to hold the recipes that you will fetch
   const recipes = [];
